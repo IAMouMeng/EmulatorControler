@@ -49,7 +49,7 @@ POST /emulator/operate/{action}
 
 |名称|位置|类型|必选|中文名|说明|
 |---|---|---|---|---|---|
-|action|path|string| 是 ||['start','stop','reset']|
+|action|path|string| 是 ||['start','stop','restart','reset']|
 |body|body|object| 否 ||none|
 |» name|body|string| 是 | 云机名称|none|
 
